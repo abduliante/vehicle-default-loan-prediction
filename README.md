@@ -62,5 +62,6 @@ The prediction is going to be delivered on an IPython Notebook using Cookiecutte
 * Scikit-learn
 * Matplotlib
 * Seaborn
+* Tableau
 * Flask - Deploying model through Heroku
 
