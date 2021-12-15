@@ -12,7 +12,7 @@ There are approximately 230k+ rows and 41 columns in the dataset. Data descripti
 | Variable Name                       | Description                                                                        |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | UniqueID                            | Identifier for customers                                                           |
-| loan_default                        | "Payment default in the first EMI on due date, 1 for default"                      |
+| <mark>loan_default</mark>                        | <mark>"Payment default in the first EMI on due date, 1 for default"</mark>                      |
 | disbursed_amount                    | Amount of Loan disbursed                                                           |
 | asset_cost                          | Cost of the Asset                                                                  |
 | ltv                                 | Loan to Value of the asset                                                         |
