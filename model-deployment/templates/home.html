@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home</title>
+    <style>
+    </style>
+</head>
+<body>
+
+    <div style="max-width: 500;">
+        <div style="text-align: center ;">
+              <h1 style="color: dodgerblue ; margin-top: 20px;">Vehicle Loan Default Predictor</h1>
+        </div><!---EndTitle--->
+        <div style="text-align: center ; ">
+           
+        </div><!---EndResult--->
+        <div style="">
+        
+         <form method="post">
+            <div style="max-width: 500px ; padding: 10px; margin: auto;">
+            
+                <!------------->
+                <div class="form-group">
+                  <label for="email">DISBURSED AMOUNT</label>
+                  {{form.DISBURSED_AMOUNT(class="form-control")}}
+                </div> 
+
+                <!------------->
+                <div class="form-group">
+                  <label for="email">ASSET COST</label>
+                  {{form.ASSET_COST(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">ASSET COST</label>
+                  {{form.ASSET_COST(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">PRI NO OF ACCTS</label>
+                  {{form.PRI_NO_OF_ACCTS(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">PRI ACTIVE ACCTS</label>
+                  {{form.PRI_ACTIVE_ACCTS(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">PRI OVERDUE ACCTS</label>
+                  {{form.PRI_OVERDUE_ACCTS(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">PRI OVERDUE ACCTS</label>
+                  {{form.PRI_OVERDUE_ACCTS(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">PRI CURRENT BALANCE</label>
+                  {{form.PRI_CURRENT_BALANCE(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">PRIMARY INSTAL AMT</label>
+                  {{form.PRIMARY_INSTAL_AMT(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">ACCOUNT LAST SIX MONTHS</label>
+                  {{form.NEW_ACCTS_IN_LAST_SIX_MONTHS(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">DELINQUENT LAST SIX MONTHS</label>
+                  {{form.DELINQUENT_ACCTS_IN_LAST_SIX_MONTHS(class="form-control")}}
+                </div> 
+                <!------------->
+                <div class="form-group">
+                  <label for="email">TOTAL OF INQUIRIES</label>
+                  {{form.NO_OF_INQUIRIES(class="form-control" )}}
+                </div> 
+                <!------------->
+                <div style="display: inline-block">
+                  <h5>LOANEE DOB</h5>
+                  <div>Day {{form.LOANEE_DOB_DAYS_DAY(class="form-control" , style="width: 60px"  )}}</div>
+                  <div>Month {{form.LOANEE_DOB_DAYS_Month(class="form-control" , style="width: 60px"  )}}</div>
+                  <div>Year {{form.LOANEE_DOB_DAYS_Year(class="form-control" , style="width: 60px"  )}}</div>
+                </div>
+                 <br>
+                <!------------->
+                <div style="display: inline-block">
+                  <h5>DISBURSAL DATE</h5>
+                  Day {{form.LOANEE_DOB_DAYS_DAY(class="form-control" , style="width: 60px"  )}}
+                  Month {{form.DISBURSAL_DATE_DAYS_Month(class="form-control" , style="width: 60px"  )}}
+                  Year {{form.DISBURSAL_DATE_DAYS_Year(class="form-control" , style="width: 60px"  )}}
+                </div>
+                 <br>
+                
+                <!------------->
+                <div class="form-group">
+                  <label for="email">RISK</label>
+                  {{form.Risk(class="form-control" )}}
+                </div> 
+
+
+                <button type="submit" class="btn btn-primary">Submit</button> 
+                
+                
+                </div><!--EndWidth--->             
+            </form>
+            
+        </div><!---EndForm--->
+        <div style=""></div><!---Endfotter--->
+    </div><!--EndMainBox-->
+    
+    
+</body>
+</html>
